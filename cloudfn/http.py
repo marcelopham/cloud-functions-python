@@ -3,6 +3,7 @@ import sys
 
 import six
 from urlparse import urlparse
+print('http-six-fix')
 
 class Request:
     def __init__(self, raw_json):
