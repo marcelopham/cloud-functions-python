@@ -2,8 +2,7 @@ import json
 import sys
 
 import six
-from six.moves.urllib_parse import urlparse
-
+from urlparse import urlparse
 
 class Request:
     def __init__(self, raw_json):
